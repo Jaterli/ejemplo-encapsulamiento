@@ -8,20 +8,21 @@
 
 </ul>
 <hr />
-<p>Este repositorio muestra un ejemplo de encapsulamiento utilizando una clase CuentaBancaria</p>
-Explicación del código:
+<h3>Ejemplo de encapsulamiento</h3>
+<p>Este repositorio muestra un ejemplo de encapsulamiento utilizando una clase <b>CuentaBancaria</b></p>
+<h4><u>Explicación del código:</u></h4>
 
-    Atributos privados:
-        numeroCuenta y saldo son atributos privados. Esto significa que no pueden ser accedidos directamente desde fuera de la clase CuentaBancaria.
+<strong>Atributos privados:</strong>
+    numeroCuenta y saldo son atributos privados. Esto significa que no pueden ser accedidos directamente desde fuera de la clase CuentaBancaria.
 
-    Constructor:
-        El constructor inicializa los atributos numeroCuenta y saldo.
+<strong>Constructor:</strong>
+    El constructor inicializa los atributos numeroCuenta y saldo.
 
-    Métodos públicos (getters):
-        getNumeroCuenta y getSaldo son métodos públicos que permiten acceder a los valores de numeroCuenta y saldo de forma controlada.
+<strong>Métodos públicos (getters):</strong>
+    getNumeroCuenta y getSaldo son métodos públicos que permiten acceder a los valores de numeroCuenta y saldo de forma controlada.
 
-    Métodos públicos (para modificar el estado):
-        depositar y retirar son métodos públicos que permiten modificar el saldo de la cuenta. Estos métodos incluyen validaciones para asegurar que las operaciones sean válidas (por ejemplo, no permitir depósitos negativos o retiros mayores al saldo disponible).
+<strong>Métodos públicos (para modificar el estado):</strong>
+    depositar y retirar son métodos públicos que permiten modificar el saldo de la cuenta. Estos métodos incluyen validaciones para asegurar que las operaciones sean válidas (por ejemplo, no permitir depósitos negativos o retiros mayores al saldo disponible).
 
-    Clase Main:
-        La clase Main muestra cómo utilizar la clase CuentaBancaria. Se crea una cuenta, se realizan depósitos y retiros, y se muestra el saldo actualizado.
+<strong>Clase Main:</strong>
+    La clase Main muestra cómo utilizar la clase CuentaBancaria. Se crea una cuenta, se realizan depósitos y retiros, y se muestra el saldo actualizado.
